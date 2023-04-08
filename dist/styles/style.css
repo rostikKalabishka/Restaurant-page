@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #000000;
+  background-image: url("./../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: white;
+}
+
+.header {
+  padding: 44px;
+  margin-bottom: 650px;
+}
+.nav-wrapper {
+  margin-bottom: 200px;
+}
+.container-wide {
+  margin: 0 auto;
+  width: 1800px;
+  padding: 0 15px;
+}
+.row {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.logo {
+  font-size: 44px;
+  font-weight: 500px;
+}
+
+.nav-menu {
+  font-size: 25px;
+}
+
+.nav-menu ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.nav-menu li + li {
+  margin-left: 40px;
+}
+.nav-menu li {
+  margin-top: 12px;
+}
+.info {
+  font-size: 25px;
+  margin-top: 12px;
+}
+.info a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+.nav-menu a:hover {
+  color: rgba(193, 241, 79, 0.808);
+}
+.info a:hover {
+  color: rgba(193, 241, 79, 0.808);
+}
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.hero {
+  margin-right: auto;
+  margin-left: auto;
+
+  max-width: 800px;
+  padding-left: 75px;
+  padding-right: 15px;
+  text-decoration: none;
+  transition: transform 0.2s ease-in;
+}
+.hero:hover {
+  transform: translatY(-15%);
+}
+
+.hero-title-text {
+  font-size: 91px;
+  color: white;
+}
+
+.container {
+  max-width: 1130px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.article:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.article-text {
+  padding-left: 150px;
+  max-width: 780px;
+}
+.article-title {
+  margin-bottom: 20px;
+  max-width: 500px;
+  line-height: 1.25;
+  font-size: 70px;
+}
+.article-text p {
+  font-size: 19px;
+  line-height: 1.8;
+}
+.article-img {
+  height: 120%;
+}
