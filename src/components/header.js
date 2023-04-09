@@ -75,7 +75,7 @@ const createHeader = () => {
     createH1(
       "hero-title-text",
       "hero-title-text",
-      "Life Іs Too Short To Eat Bad Food"
+      "Life Іs Too Short To Eat Bad Food1"
     )
   );
 };
