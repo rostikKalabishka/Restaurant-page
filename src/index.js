@@ -16,7 +16,6 @@ const navCLick = () => {
   const contactNav = document.getElementsByClassName("contact");
   homeNav.addEventListener("click", homeLoad);
   menuNav.addEventListener("click", menuLoad);
-  menuNav.addEventListener("click", contactLoad);
-  contactNav.addEventListener("click", contact);
+  contactNav.addEventListener("click", contactLoad);
 };
 navCLick();
