@@ -60,6 +60,7 @@ const contactLoad = () => {
     const image = articleImg.appendChild(createImg(`${item.imgUrl}`));
     image.style.width = "500px";
     image.style.height = "530px";
+    image.style.borderRadius = "10px";
     container.appendChild(article);
   });
 };
