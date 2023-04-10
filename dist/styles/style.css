@@ -52,6 +52,7 @@ body {
 }
 .nav-menu li {
   margin-top: 12px;
+  cursor: pointer;
 }
 .info {
   font-size: 25px;

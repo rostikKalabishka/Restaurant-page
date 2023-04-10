@@ -1,3 +1,4 @@
+import clearMain from "../components/clearMain";
 import contactJSON from "./../data/contact";
 const createArticle = (className, id) => {
   const article = document.createElement("article");
@@ -38,6 +39,7 @@ const createImg = (src = "none") => {
 
 const contactLoad = () => {
   const main = document.querySelector("main");
+  clearMain();
   const container = main.appendChild(createDiv("container", "container"));
 
   contactJSON.info.map((item) => {

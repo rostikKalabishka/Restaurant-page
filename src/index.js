@@ -6,14 +6,13 @@ import menuLoad from "./modules/menu";
 import contactLoad from "./modules/contacts";
 
 pageLoad();
-// contactLoad();
-// menuLoad();
-// homeLoad();
+
+homeLoad();
 
 const navCLick = () => {
-  const homeNav = document.getElementsByClassName("home");
-  const menuNav = document.getElementsByClassName("menu");
-  const contactNav = document.getElementsByClassName("contact");
+  const homeNav = document.getElementById("home");
+  const menuNav = document.getElementById("menu");
+  const contactNav = document.getElementById("contact");
   homeNav.addEventListener("click", homeLoad);
   menuNav.addEventListener("click", menuLoad);
   contactNav.addEventListener("click", contactLoad);

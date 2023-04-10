@@ -1,3 +1,4 @@
+import clearMain from "../components/clearMain";
 import articlesJSON from "./../data/articles.json";
 
 const createArticle = (className, id) => {
@@ -39,10 +40,8 @@ const createImg = (src = "dsada") => {
 
 const homeLoad = () => {
   const main = document.querySelector("main");
+  clearMain();
   const container = main.appendChild(createDiv("container", "container"));
-  if (container.firstChild) {
-    container.removeChild(container.firstChild);
-  }
 
   articlesJSON.info.map((item) => {
     const article = createArticle("article", "article");

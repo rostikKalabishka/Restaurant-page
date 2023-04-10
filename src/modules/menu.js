@@ -1,3 +1,4 @@
+import clearMain from "../components/clearMain";
 import menuJSON from "./../data/menu.json";
 
 console.log(menuJSON);
@@ -40,6 +41,7 @@ const createImg = (src = "dsada") => {
 
 const menuLoad = () => {
   const main = document.querySelector("main");
+  clearMain();
   const container = main.appendChild(createDiv("container", "container"));
 
   menuJSON.info.map((item) => {
