@@ -1,17 +1,22 @@
 // import menuLoad from "./modules/menu";
 import pageLoad from "./modules/initialPage";
-import createHeader from "./components/header";
-createHeader();
+
+import homeLoad from "./modules/home";
+import menuLoad from "./modules/menu";
+import contactLoad from "./modules/contacts";
+
 pageLoad();
+// contactLoad();
+// menuLoad();
+// homeLoad();
 
 const navCLick = () => {
-  // const homeNav = document.getElementsByClassName("home");
-  // const menuNav = document.getElementsByClassName("menu");
-  // const contactNav = document.getElementsByClassName("contact");
-  // homeNav.addEventListener("click", home);
-  // menuNav.addEventListener("click", menu);
-  // contactNav.addEventListener("click", contact);
+  const homeNav = document.getElementsByClassName("home");
+  const menuNav = document.getElementsByClassName("menu");
+  const contactNav = document.getElementsByClassName("contact");
+  homeNav.addEventListener("click", homeLoad);
+  menuNav.addEventListener("click", menuLoad);
+  menuNav.addEventListener("click", contactLoad);
+  contactNav.addEventListener("click", contact);
 };
-const init = () => {
-  navCLick();
-};
+navCLick();

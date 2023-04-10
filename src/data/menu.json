@@ -1,0 +1,26 @@
+{
+  "info": [
+    {
+      "title": "VEGETABLE ASSORTMENT",
+      "price": "29.39",
+      "imgUrl": "./img/11.jpg"
+    },
+    {
+      "title": "VEAL TARTARE",
+      "price": "29.49",
+      "imgUrl": "./img/12.jpg"
+    },
+    {
+      "title": "CAESAR SALAD",
+      "price": "19.99",
+      "imgUrl": "./img/13.jpg"
+    },
+    { "title": "ASSORTED FISH", "price": "33.99", "imgUrl": "./img/14.jpg" },
+    {
+      "title": "SOLYANKA",
+      "price": "15.99",
+      "imgUrl": "./img/16.jpg"
+    },
+    { "title": "EAL KEBAB", "price": "29.99", "imgUrl": "./img/15.jpg" }
+  ]
+}

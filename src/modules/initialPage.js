@@ -1,19 +1,18 @@
-const createMainContent = (id, textContent) => {
+import createHeader from "./../components/header";
+const createMainContent = (id) => {
   const main = document.createElement("main");
   main.classList.add("main");
   main.setAttribute("id", id);
-  main.innerHTML = textContent;
+
   return main;
 };
 
 function pageLoad() {
-  console.log(pageLoad(), "BUBA");
   const content = document.getElementById("content");
-
-  const mainContainer = createMainContent("container", "BIBA");
+  createHeader();
+  const mainContainer = createMainContent("main");
 
   content.appendChild(mainContainer);
 }
 
 export default pageLoad;
-//   export default

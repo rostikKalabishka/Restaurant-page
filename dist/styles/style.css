@@ -126,3 +126,15 @@ body {
 .article-img {
   height: 120%;
 }
+
+.price-article {
+  margin-top: 100px;
+  padding-left: 100px;
+  max-width: 780px;
+  font-size: 40px;
+}
+
+.price-article p {
+  font-size: 40px;
+  line-height: 1.8;
+}

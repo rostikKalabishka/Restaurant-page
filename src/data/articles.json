@@ -1,0 +1,19 @@
+{
+  "info": [
+    {
+      "title": " Why us?",
+      "text": "Firstly, our restaurant offers a wide range of dishes from different cuisines of the world, which are prepared exclusively from fresh and high-quality products. We carefully select ingredients and monitor their quality to ensure the most delicious dishes for our guests. Secondly, our restaurant has a great atmosphere that makes guests feel comfortable and cozy. We take care of the details, such as music, lighting, and decoration, to create a pleasant atmosphere for dinner with friends, family, or a romantic lunch.",
+      "imgUrl": "./img/3.webp"
+    },
+    {
+      "title": "About the staff?",
+      "text": "Our team of professional waiters is always happy to help you with your food and beverage choices, and will make sure that  your stay in our restaurant is unforgettable. Finally, we offer affordable prices and frequent promotions and discounts for our guests, which makes our restaurant more accessible and convenient for a wide range of people. So, if you are looking for a place with delicious food, pleasant atmosphere and  professional service, then our restaurant is the perfect place  for you. We look forward to your visit!",
+      "imgUrl": "./img/4.webp"
+    },
+    {
+      "title": "Advantages",
+      "text": " Food quality: We work only with fresh and high-quality ingredients, so our dishes are always delicious and full of flavor. We carefully select products and prepare them with attention to detail to provide our guests with the highest quality food. Wide selection: Our restaurant offers a wide selection of dishes from different cuisines of the world to satisfy the tastes of any guest. We offer dishes ranging from classic to exotic, so you can always find something new and interesting to try. Friendly service: Our team of professional waiters is always happy to help you with your food and drink choices, and will make sure that your stay in our restaurant is  comfortable and memorable.",
+      "imgUrl": "./img/6.webp"
+    }
+  ]
+}
