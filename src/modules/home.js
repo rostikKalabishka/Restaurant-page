@@ -58,7 +58,9 @@ const homeLoad = () => {
     const articleImg = article.appendChild(
       createDiv("article-text", "article-text")
     );
-    articleImg.appendChild(createImg(`${item.imgUrl}`));
+
+    const image = articleImg.appendChild(createImg(`${item.imgUrl}`));
+    image.style.borderRadius = "10px";
     container.appendChild(article);
     console.log(article);
   });
